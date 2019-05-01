@@ -8,7 +8,7 @@ int main(void){
     int v=0;
     char unknown [8];
     
-    printf("What are you solving for?\n");
+    printf("What are you solving for Voltage equation?(P,I,or V)?\n");
     scanf("%c", unknown);
     
     if( *unknown=='v'){
